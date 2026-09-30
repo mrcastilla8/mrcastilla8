@@ -78,7 +78,7 @@ Sistema para centralizar investigadores, proyectos y publicaciones académicas. 
 ## [ 04 ] actividad_en_github
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=mrcastilla8&show_icons=true&include_all_commits=true&locale=es&hide=contribs&hide_border=false&border_color=29484d&bg_color=0f1719&title_color=e06c75&text_color=9cdef2&icon_color=e06c75&ring_color=e06c75&cache_seconds=21600" alt="Estadísticas de GitHub de Marco Castilla" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=mrcastilla8&show_icons=true&include_all_commits=true&locale=es&hide=contribs&rank_icon=github&hide_border=false&border_color=29484d&bg_color=0f1719&title_color=e06c75&text_color=9cdef2&icon_color=e06c75&ring_color=e06c75&cache_seconds=21600" alt="Estadísticas de GitHub de Marco Castilla" />
   <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrcastilla8&layout=compact&langs_count=7&hide=html,jupyter%20notebook&locale=es&hide_border=false&border_color=29484d&bg_color=0f1719&title_color=e06c75&text_color=9cdef2&cache_seconds=21600" alt="Lenguajes más utilizados por Marco Castilla" />
 </div>
 
