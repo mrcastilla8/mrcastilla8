@@ -1,105 +1,115 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Marco Castilla - Ingeniería de software, IA aplicada y automatización" />
+  <img src="./assets/header.svg" width="100%" alt="Marco Castilla - Ingeniería de software, sistemas full-stack e inteligencia artificial aplicada" />
 </div>
 
 <div align="center">
-  <a href="mailto:marecahu02@gmail.com">Correo</a>
-  <span>&nbsp;·&nbsp;</span>
-  <a href="https://www.linkedin.com/in/marco-castillla/">LinkedIn</a>
-  <span>&nbsp;·&nbsp;</span>
-  <a href="https://github.com/mrcastilla8?tab=repositories">Proyectos</a>
-  <span>&nbsp;·&nbsp;</span>
-  Lima, Perú
+  <br />
+  <a href="mailto:marecahu02@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ESCRÍBEME-0f1719?style=for-the-badge&logo=gmail&logoColor=e06c75&labelColor=182426&color=29484d" alt="Enviar correo a Marco" /></a>
+  <a href="https://www.linkedin.com/in/marco-castillla/"><img src="https://img.shields.io/badge/LINKEDIN-CONECTEMOS-0f1719?style=for-the-badge&logo=linkedin&logoColor=9cdef2&labelColor=182426&color=29484d" alt="LinkedIn de Marco Castilla" /></a>
+  <a href="https://github.com/mrcastilla8?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-VER_PROYECTOS-0f1719?style=for-the-badge&logo=github&logoColor=9cdef2&labelColor=182426&color=29484d" alt="Repositorios de Marco Castilla" /></a>
 </div>
 
 <br />
 
-Soy estudiante de **Ingeniería de Software en la Universidad Nacional Mayor de San Marcos**. Construyo sistemas que conectan producto, datos e inteligencia artificial: desde plataformas full-stack y pipelines ETL hasta procesamiento de audio en tiempo real.
+## [ 01 ] perfil
 
-Me interesa convertir problemas complejos en software claro, útil y mantenible. Actualmente busco **prácticas preprofesionales** donde pueda contribuir en desarrollo backend o full-stack, automatización con IA y productos basados en datos.
+```text
+marco@portfolio:~$ whoami
+> Estudiante de Ingeniería de Software en la UNMSM.
+> Construyo productos full-stack, automatizaciones con IA y sistemas de datos.
+> Estado: abierto a prácticas preprofesionales · Lima, Perú
+```
 
-> **Mi diferencial:** combino criterio técnico con comunicación bilingüe, experiencia real de atención al cliente y una obsesión saludable por entender cómo funciona cada capa del sistema.
+Me gusta convertir problemas complejos en software claro, útil y mantenible. Mi trabajo conecta **producto, backend, datos e inteligencia artificial**: desde plataformas multicanal hasta pipelines ETL y procesamiento de audio en tiempo real.
 
-## Señales de ingeniería
+> **Mi diferencial:** combino criterio técnico con comunicación bilingüe, experiencia real de atención al cliente y curiosidad por entender cada capa del sistema.
 
-| Procesamiento en tiempo real | Producto end-to-end | Datos trazables |
-| :--- | :--- | :--- |
-| **< 1 s de latencia** en transcripción local sobre una RTX 3050 | Aplicaciones con **frontend, backend, seguridad y despliegue** | ETL de **4 fuentes** con reconciliación y auditoría de sincronizaciones |
+| TIEMPO REAL | PRODUCTO END-TO-END | DATOS TRAZABLES |
+| :---: | :---: | :---: |
+| **< 1 s** de latencia en transcripción local | Frontend + backend + seguridad + despliegue | ETL de **4 fuentes** con reconciliación y auditoría |
 
-## Proyectos seleccionados
+## [ 02 ] proyectos_destacados
 
-### Live Whisper Assistant
+<div align="center">
+  <img src="./assets/projects.svg" width="100%" alt="Proyectos destacados: Live Whisper Assistant, Marketing CRM y SGPI" />
+</div>
 
-**Transcripción e interpretación Español ↔ Inglés en tiempo real, ejecutada localmente en Windows.**
+### 01 // [Live Whisper Assistant](https://github.com/mrcastilla8/Live-Whisper-Assistant)
 
-Diseñé un pipeline híbrido que captura el audio de una aplicación específica mediante una DLL nativa en C++ y WASAPI, procesa la señal con filtros DSP y ejecuta inferencia acelerada por GPU con faster-whisper. Lo utilizo como soporte en escenarios reales de interpretación médica y de servicio al cliente.
+Transcripción e interpretación Español ↔ Inglés ejecutada localmente en Windows. Diseñé un pipeline híbrido que captura audio por proceso mediante **C++ y WASAPI**, aplica filtros DSP y ejecuta inferencia acelerada por GPU con faster-whisper. Lo utilizo como soporte en escenarios reales de interpretación.
 
 `Python` `C++17` `WASAPI` `CUDA` `CTranslate2` `PyQt6` `DSP`
 
-[Código y arquitectura →](https://github.com/mrcastilla8/Live-Whisper-Assistant)
+### 02 // [Marketing CRM](https://github.com/mrcastilla8/Marketing-CRM)
 
----
+Plataforma multicanal para campañas, leads y telemarketing. Participé en su construcción full-stack: dashboards, grabaciones, WebSockets, Gemini, seguridad JWT/RBAC, pruebas, Docker y despliegue automatizado.
 
-### Marketing CRM
+`Java 17` `Spring Boot` `React` `TypeScript` `MySQL` `Gemini` `WebSockets` · **[Abrir aplicación](https://marketing-crm-pearl.vercel.app)**
 
-**Plataforma multicanal para campañas telefónicas, email marketing y gestión de leads.**
+### 03 // [SGPI · Investigación FISI-UNMSM](https://github.com/mrcastilla8/JP-SAC)
 
-Participé en la construcción de un producto full-stack con separación frontend/backend, dashboards de rendimiento, grabaciones en Firebase, comunicación por WebSockets e integración con Gemini. Incluye seguridad JWT con roles para administradores, supervisores y agentes, pruebas, Docker y despliegue automatizado.
-
-`Java 17` `Spring Boot` `React` `TypeScript` `MySQL` `Gemini` `WebSockets`
-
-[Explorar repositorio →](https://github.com/mrcastilla8/Marketing-CRM) · [Ver aplicación →](https://marketing-crm-pearl.vercel.app)
-
----
-
-### SGPI · Gestión de investigación FISI-UNMSM
-
-**Sistema para centralizar información de investigadores, proyectos y publicaciones académicas.**
-
-Trabajé en una arquitectura que integra scraping dinámico, importación de Excel, lectura de PDF y OCR. El pipeline aplica reglas de prioridad por fuente, conserva una auditoría de los registros procesados y expone la información mediante FastAPI, PostgreSQL y una interfaz en Next.js.
+Sistema para centralizar investigadores, proyectos y publicaciones académicas. Integra scraping, Excel, lectura de PDF y OCR con reglas de prioridad por fuente, auditoría de sincronizaciones y una API construida con FastAPI.
 
 `Python` `FastAPI` `Next.js` `PostgreSQL` `Supabase` `Playwright` `OCR` `ETL`
 
-[Explorar repositorio →](https://github.com/mrcastilla8/JP-SAC)
-
 <details>
-  <summary><strong>Más trabajo destacado</strong></summary>
+  <summary><strong>+ explorar más trabajo</strong></summary>
   <br />
 
-- **[Wankas E-Commerce](https://github.com/mrcastilla8/deploy-wankas):** tienda y panel administrativo con Next.js, Supabase y flujos de IA para reconocer alimentos, sugerir recetas y completar ingredientes faltantes.
-- **[Proyecto Grupal de IA](https://github.com/mrcastilla8/grupo02-proyecto-ia):** desarrollé el agente de Othello basado en Minimax con poda alfa-beta y participé en la integración de un proyecto académico que reúne búsqueda, clasificación, clustering y reducción de dimensionalidad.
+- **[Wankas E-Commerce](https://github.com/mrcastilla8/deploy-wankas):** tienda y panel administrativo con Next.js, Supabase e IA para reconocer alimentos, sugerir recetas y completar ingredientes faltantes.
+- **[Proyecto Grupal de IA](https://github.com/mrcastilla8/grupo02-proyecto-ia):** desarrollé el agente de Othello basado en Minimax con poda alfa-beta y participé en la integración del proyecto académico.
 
 </details>
 
-## Herramientas con las que construyo
+## [ 03 ] tecnologías
 
-| Área | Tecnologías |
-| :--- | :--- |
-| **Producto web** | TypeScript, React, Next.js, Tailwind CSS |
-| **Backend y datos** | Python, FastAPI, Java, Spring Boot, PostgreSQL, MySQL, Oracle PL/SQL |
-| **IA y automatización** | Gemini, Genkit, faster-whisper, CTranslate2, Playwright, OCR, ETL |
-| **Ingeniería** | Git, GitHub Actions, Docker, OpenAPI, JWT, RBAC, WebSockets |
+<div align="center">
+  <p><samp>PRODUCTO · BACKEND · IA APLICADA</samp></p>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,java,cpp,react,nextjs,fastapi,spring,nodejs,tailwind&perline=11&theme=dark" alt="Python, TypeScript, JavaScript, Java, C++, React, Next.js, FastAPI, Spring, Node.js y Tailwind CSS" />
+  <br /><br />
+  <p><samp>DATOS · INFRAESTRUCTURA · HERRAMIENTAS</samp></p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,docker,git,githubactions,vscode,linux&perline=8&theme=dark" alt="PostgreSQL, MySQL, Supabase, Docker, Git, GitHub Actions, VS Code y Linux" />
+</div>
 
-## Más allá del código
+<br />
 
-Antes y durante mi formación en software trabajé como intérprete bilingüe de servicio al cliente y servicios médicos. Esa experiencia fortaleció habilidades que también llevo a la ingeniería:
+`Gemini / Genkit` `faster-whisper` `CTranslate2` `Playwright` `OCR` `Oracle PL/SQL` `OpenAPI` `JWT / RBAC`
+
+## [ 04 ] actividad_en_github
+
+<div align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=mrcastilla8&show_icons=true&include_all_commits=true&locale=es&hide_border=false&border_color=29484d&bg_color=0f1719&title_color=e06c75&text_color=9cdef2&icon_color=e06c75&ring_color=e06c75&cache_seconds=21600" alt="Estadísticas de GitHub de Marco Castilla" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrcastilla8&layout=compact&langs_count=7&hide=html,jupyter%20notebook&hide_border=false&border_color=29484d&bg_color=0f1719&title_color=e06c75&text_color=9cdef2&cache_seconds=21600" alt="Lenguajes más utilizados por Marco Castilla" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=mrcastilla8&locale=es&mode=weekly&background=0F1719&border=29484D&stroke=29484D&ring=E06C75&fire=E06C75&currStreakNum=9CDEF2&sideNums=9CDEF2&currStreakLabel=E06C75&sideLabels=6F8F95&dates=6F8F95" alt="Racha de contribuciones de Marco Castilla" />
+</div>
+
+## [ 05 ] más_allá_del_código
+
+También he trabajado como **intérprete bilingüe de servicio al cliente y servicios médicos**. Esa experiencia fortaleció habilidades que aplico directamente a la ingeniería:
 
 - comunicación precisa en español e inglés;
 - análisis rápido de contexto y necesidades;
 - trabajo bajo estándares de confidencialidad;
 - empatía con el usuario y coordinación con equipos operativos.
 
-## Formación
+**Formación:** Ingeniería de Software en la Universidad Nacional Mayor de San Marcos · Inglés C1 certificado por ICPNA.
 
-- **Ingeniería de Software**, Universidad Nacional Mayor de San Marcos — 2023 a la actualidad.
-- **Inglés C1**, certificado por ICPNA.
+## [ 06 ] contacto
 
-## Hablemos
+Estoy abierto a prácticas preprofesionales en **ingeniería de software, backend, full-stack, automatización con IA o productos de datos**.
 
-Estoy abierto a oportunidades de **prácticas preprofesionales** en ingeniería de software, desarrollo full-stack, backend, automatización con IA o productos de datos.
-
-Puedes escribirme a **[marecahu02@gmail.com](mailto:marecahu02@gmail.com)** o contactarme por **[LinkedIn](https://www.linkedin.com/in/marco-castillla/)**.
-
-<div align="right">
+<div align="center">
+  <br />
+  <samp>¿Construimos algo útil?</samp>
+  <br /><br />
+  <a href="mailto:marecahu02@gmail.com"><strong>marecahu02@gmail.com</strong></a>
+  <span>&nbsp;·&nbsp;</span>
+  <a href="https://www.linkedin.com/in/marco-castillla/"><strong>LinkedIn</strong></a>
+  <br /><br />
   <sub>Construyendo sistemas útiles, una decisión de ingeniería a la vez.</sub>
 </div>
+
+<!-- Diseño inspirado en interfaces editoriales de sistemas: alto contraste, tipografía monoespaciada y señal sobre ruido. -->
