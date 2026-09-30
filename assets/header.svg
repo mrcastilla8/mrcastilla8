@@ -1,0 +1,114 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Marco Castilla</title>
+  <desc id="desc">Banner editorial sobre ingeniería de software, inteligencia artificial aplicada y automatización</desc>
+
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --grid: #d8e0ea;
+      --text: #10233d;
+      --muted: #52647a;
+      --blue: #1769e0;
+      --aqua: #0b9fa5;
+      --node: #ffffff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --surface: #101b2e;
+        --grid: #21314a;
+        --text: #eef5ff;
+        --muted: #a5b5ca;
+        --blue: #58a6ff;
+        --aqua: #35d0ba;
+        --node: #101b2e;
+      }
+    }
+
+    .label {
+      font: 600 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      letter-spacing: 3px;
+      fill: var(--blue);
+    }
+
+    .name {
+      font: 700 58px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: -2px;
+      fill: var(--text);
+    }
+
+    .tagline {
+      font: 400 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: var(--muted);
+    }
+
+    .mono {
+      font: 500 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      fill: var(--muted);
+    }
+  </style>
+
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="var(--grid)" stroke-width="1" opacity="0.55" />
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="var(--blue)" />
+      <stop offset="1" stop-color="var(--aqua)" />
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="var(--bg)" stop-opacity="0" />
+      <stop offset="0.45" stop-color="var(--bg)" stop-opacity="0.12" />
+      <stop offset="1" stop-color="var(--bg)" stop-opacity="0.96" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="var(--bg)" />
+  <rect width="1200" height="360" rx="24" fill="url(#grid)" />
+
+  <g opacity="0.9">
+    <path d="M747 81H836L879 124H1018" stroke="url(#accent)" stroke-width="2" />
+    <path d="M705 250H790L843 197H955L1001 243H1122" stroke="url(#accent)" stroke-width="2" />
+    <path d="M806 306H899L936 269H1086" stroke="var(--grid)" stroke-width="2" />
+    <path d="M763 152H824L850 178H929" stroke="var(--grid)" stroke-width="2" />
+
+    <circle cx="747" cy="81" r="6" fill="var(--node)" stroke="var(--blue)" stroke-width="3" />
+    <circle cx="879" cy="124" r="6" fill="var(--node)" stroke="var(--aqua)" stroke-width="3" />
+    <circle cx="1018" cy="124" r="6" fill="var(--node)" stroke="var(--blue)" stroke-width="3" />
+    <circle cx="705" cy="250" r="6" fill="var(--node)" stroke="var(--aqua)" stroke-width="3" />
+    <circle cx="843" cy="197" r="6" fill="var(--node)" stroke="var(--blue)" stroke-width="3" />
+    <circle cx="1001" cy="243" r="6" fill="var(--node)" stroke="var(--aqua)" stroke-width="3" />
+    <circle cx="1122" cy="243" r="6" fill="var(--node)" stroke="var(--blue)" stroke-width="3" />
+  </g>
+
+  <g transform="translate(965 50)">
+    <circle cx="85" cy="85" r="73" fill="var(--surface)" stroke="var(--grid)" stroke-width="2" />
+    <circle cx="85" cy="85" r="54" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="5 7" />
+    <path d="M54 105V64L84 92L116 62V105" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="85" cy="85" r="4" fill="var(--aqua)" filter="url(#glow)" />
+  </g>
+
+  <rect x="0" y="0" width="830" height="360" rx="24" fill="url(#fade)" transform="matrix(-1 0 0 1 830 0)" opacity="0.35" />
+
+  <g transform="translate(72 68)">
+    <text class="label" x="0" y="0">SOFTWARE · DATOS · IA APLICADA</text>
+    <text class="name" x="0" y="78">Marco Castilla</text>
+    <text class="tagline" x="2" y="124">Construyo sistemas útiles para problemas reales.</text>
+
+    <g transform="translate(2 178)">
+      <path d="M0 20H18L27 5L38 37L51 12L63 28L75 20H94L104 9L116 31L128 20H147" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text class="mono" x="169" y="25">producto / automatización / sistemas en tiempo real</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="var(--grid)" stroke-width="2" />
+</svg>
